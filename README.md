@@ -177,19 +177,17 @@ Doktorların hızlı değerlendirme yapmasını sağlar
 ---
 
 🧩 Giriş Ekranı
-<img width="974" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (4)" src="https://github.com/user-attachments/assets/312bb7a4-7144-4669-8187-2d325f6cff9d" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/312bb7a4-7144-4669-8187-2d325f6cff9d" width="250"/> </p>
 
 ---
 
 📊 Analiz için Veri Giriş Ekranı
-<img width="973" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (2)" src="https://github.com/user-attachments/assets/29c2a79f-e6ac-4f12-b4af-9fa2049abda8" />
-<img width="977" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (3)" src="https://github.com/user-attachments/assets/da6d85e1-51ee-4b71-8fd3-f1b2b35ad695" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/29c2a79f-e6ac-4f12-b4af-9fa2049abda8" width="250"/> <img src="https://github.com/user-attachments/assets/da6d85e1-51ee-4b71-8fd3-f1b2b35ad695" width="250"/> </p>
 
 ---
 
 🧠 Model tahmin sonucu ekranı (Grafik ve istatistik görüntüleme)
-<img width="973" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40" src="https://github.com/user-attachments/assets/2753e99c-1a91-4fb5-bac2-36a6bff6041b" />
-<img width="976" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (1)" src="https://github.com/user-attachments/assets/f390b744-14c8-4569-9c7c-13ae504350ee" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/2753e99c-1a91-4fb5-bac2-36a6bff6041b" width="250"/> <img src="https://github.com/user-attachments/assets/f390b744-14c8-4569-9c7c-13ae504350ee" width="250"/> </p>
 
 ---
 
