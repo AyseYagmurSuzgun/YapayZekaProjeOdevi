@@ -4,13 +4,17 @@
 
 Bu projede EEG (Elektroensefalografi) sinyalleri ve klinik veriler kullanılarak Alzheimer, Parkinson ve sağlıklı bireylerin sınıflandırılması amacıyla bir yapay zeka modeli geliştirilmiştir.
 
-Model, beyin sinyallerinden elde edilen frekans bant güçlerini (delta, teta, alfa, beta, gama) ve klinik ölçümleri (MMSE, MoCA, UPDRS, yaş, cinsiyet) birlikte kullanarak multimodal bir sınıflandırma yapısı oluşturmaktadır.
+Geliştirilen model, beyin sinyallerinden elde edilen frekans bant güçlerini (delta, teta, alfa, beta, gama) ve klinik ölçümleri (MMSE, MoCA, UPDRS, yaş, cinsiyet) birlikte kullanarak multimodal bir karar destek sistemi oluşturur.
+
+Ayrıca model çıktıları, kullanıcı dostu bir mobil uygulama arayüzü üzerinden görselleştirilerek doktorlar ve araştırmacılar için takip edilebilir hale getirilmiştir.
 
 ---
 
 ## 🎯 Projenin Amacı
 
-Bu çalışmanın amacı, invaziv olmayan EEG sinyalleri ve klinik verileri kullanarak nörodejeneratif hastalıkların erken teşhisinde kullanılabilecek bir karar destek sistemi geliştirmektir.
+Bu çalışmanın amacı, invaziv olmayan EEG sinyalleri ve klinik veriler kullanılarak nörodejeneratif hastalıkların erken teşhisinde kullanılabilecek yapay zekâ tabanlı bir karar destek sistemi geliştirmektir.
+
+Ek olarak, sonuçların mobil ortamda erişilebilir olmasıyla klinik kullanım kolaylığı sağlanması hedeflenmiştir.
 
 ---
 
@@ -158,11 +162,54 @@ Farklı veri bölme oranları test edilmiştir:
 
 ---
 
+## 📱 Mobil Uygulama Modülü
+
+Bu proje yalnızca bir yapay zeka modeli değil, aynı zamanda bir uçtan uca klinik kara destek sistemidir.
+
+Mobil uygulama:
+
+EEG analiz sonuçlarını görselleştirir
+Alzheimer / Parkinson / Healthy tahminini gösterir
+Hasta bazlı geçmiş analizleri saklar
+Klinik verileri kullanıcıya anlaşılır şekilde sunar
+Doktorların hızlı değerlendirme yapmasını sağlar
+
+---
+
+🧩 Giriş Ekranı
+<img width="974" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (4)" src="https://github.com/user-attachments/assets/312bb7a4-7144-4669-8187-2d325f6cff9d" />
+
+---
+
+📊 Analiz için Veri Giriş Ekranı
+<img width="973" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (2)" src="https://github.com/user-attachments/assets/29c2a79f-e6ac-4f12-b4af-9fa2049abda8" />
+<img width="977" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (3)" src="https://github.com/user-attachments/assets/da6d85e1-51ee-4b71-8fd3-f1b2b35ad695" />
+
+---
+
+🧠 Model tahmin sonucu ekranı (Grafik ve istatistik görüntüleme)
+<img width="973" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40" src="https://github.com/user-attachments/assets/2753e99c-1a91-4fb5-bac2-36a6bff6041b" />
+<img width="976" height="2048" alt="WhatsApp Image 2026-05-22 at 23 06 40 (1)" src="https://github.com/user-attachments/assets/f390b744-14c8-4569-9c7c-13ae504350ee" />
+
+---
+
+## 🛠️ Kullanılan Teknolojiler (Mobil)
+- Flutter — Cross-platform mobil framework (Google)
+- Dart — Flutter’ın programlama dili
+- Material Design 3 — Modern UI tasarım sistemi
+- fl_chart — Grafik ve bar chart görselleştirme (sonuç ekranları)
+- image_picker — Galeri ve kamera erişimi
+- http — REST API istekleri için HTTP client
+- google_fonts — Space Grotesk ve Outfit font desteği
+
+---
+
 ## 🚀 Gelecek Çalışmalar
 
 - Transformer tabanlı EEG modelleri  
 - Daha büyük ve dengeli veri setleri  
 - Hiperparametre optimizasyonu  
-- Gerçek zamanlı EEG sınıflandırma sistemi  
-
+- Gerçek zamanlı EEG sınıflandırma sistemi
+- Mobil uygulamanın klinik seviyeye optimize edilmesi
+  
 ---
